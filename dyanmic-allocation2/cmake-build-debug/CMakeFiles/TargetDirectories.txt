@@ -1,0 +1,3 @@
+/home/lgao/Desktop/learning algo/dyanmic-allocation2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/lgao/Desktop/learning algo/dyanmic-allocation2/cmake-build-debug/CMakeFiles/dyanmic_allocation2.dir
+/home/lgao/Desktop/learning algo/dyanmic-allocation2/cmake-build-debug/CMakeFiles/edit_cache.dir

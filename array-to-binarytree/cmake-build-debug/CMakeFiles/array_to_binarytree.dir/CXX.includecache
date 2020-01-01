@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lu.gao/Desktop/learning-algo/array-to-binarytree/Helper.h
+vector
+-
+queue
+-
+math.h
+-
+TreeNode.h
+/home/lu.gao/Desktop/learning-algo/array-to-binarytree/TreeNode.h
+
+/home/lu.gao/Desktop/learning-algo/array-to-binarytree/TreeNode.h
+iostream
+-
+math.h
+-
+queue
+-
+
+/home/lu.gao/Desktop/learning-algo/array-to-binarytree/main.cpp
+iostream
+-
+TreeNode.h
+/home/lu.gao/Desktop/learning-algo/array-to-binarytree/TreeNode.h
+Helper.h
+/home/lu.gao/Desktop/learning-algo/array-to-binarytree/Helper.h
+
