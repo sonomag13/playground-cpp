@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/static_function_in_a_class.dir/main.cpp.o  -o static_function_in_a_class 
