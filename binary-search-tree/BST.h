@@ -71,7 +71,6 @@ public:
         return search(rootNode, targetKey);
     }
 
-
 private:
 
     int count;

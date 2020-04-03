@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/strobe/Desktop/playground-cpp/binary-search-tree/main.cpp" "/home/strobe/Desktop/playground-cpp/binary-search-tree/cmake-build-debug/CMakeFiles/binary_search_tree.dir/main.cpp.o"
+  "C:/Users/lu.gao/Desktop/playground-cpp/binary-search-tree/main.cpp" "C:/Users/lu.gao/Desktop/playground-cpp/binary-search-tree/cmake-build-debug/CMakeFiles/binary_search_tree.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

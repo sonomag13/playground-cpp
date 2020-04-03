@@ -3,4 +3,4 @@ project(binary_search_tree)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(binary_search_tree main.cpp BST.h DataStructure.h)
+add_executable(binary_search_tree main.cpp BST.h DataStructure.h TreeOperation.h)
