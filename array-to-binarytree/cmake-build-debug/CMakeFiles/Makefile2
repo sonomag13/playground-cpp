@@ -35,19 +35,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lu.gao/clion-2019.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2019.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/lu.gao/clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lu.gao/Desktop/learning-algo/array-to-binarytree
+CMAKE_SOURCE_DIR = /home/strobe/Desktop/playground-cpp/array-to-binarytree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug
+CMAKE_BINARY_DIR = /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -74,14 +74,14 @@ preinstall:
 CMakeFiles/array_to_binarytree.dir/all:
 	$(MAKE) -f CMakeFiles/array_to_binarytree.dir/build.make CMakeFiles/array_to_binarytree.dir/depend
 	$(MAKE) -f CMakeFiles/array_to_binarytree.dir/build.make CMakeFiles/array_to_binarytree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target array_to_binarytree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target array_to_binarytree"
 .PHONY : CMakeFiles/array_to_binarytree.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/array_to_binarytree.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/array_to_binarytree.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/array_to_binarytree.dir/rule
 
 # Convenience name for target.

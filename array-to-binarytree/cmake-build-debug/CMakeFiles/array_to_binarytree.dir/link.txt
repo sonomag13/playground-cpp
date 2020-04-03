@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/array_to_binarytree.dir/main.cpp.o CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o  -o array_to_binarytree 
+/usr/bin/c++  -g   CMakeFiles/array_to_binarytree.dir/main.cpp.o  -o array_to_binarytree 

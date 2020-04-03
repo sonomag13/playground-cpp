@@ -3,4 +3,4 @@ project(array_to_binarytree)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(array_to_binarytree main.cpp TreeNode.cpp TreeNode.h Helper.h)
+add_executable(array_to_binarytree main.cpp TreeNode.h Helper.h)

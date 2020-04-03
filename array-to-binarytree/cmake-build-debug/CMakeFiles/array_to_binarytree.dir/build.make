@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/lu.gao/clion-2019.2.1/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /opt/clion-2019.3.4/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /home/lu.gao/clion-2019.2.1/bin/cmake/linux/bin/cmake -E remove -f
+RM = /opt/clion-2019.3.4/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lu.gao/Desktop/learning-algo/array-to-binarytree
+CMAKE_SOURCE_DIR = /home/strobe/Desktop/playground-cpp/array-to-binarytree
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug
+CMAKE_BINARY_DIR = /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/array_to_binarytree.dir/depend.make
@@ -59,43 +59,28 @@ include CMakeFiles/array_to_binarytree.dir/flags.make
 
 CMakeFiles/array_to_binarytree.dir/main.cpp.o: CMakeFiles/array_to_binarytree.dir/flags.make
 CMakeFiles/array_to_binarytree.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/array_to_binarytree.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/array_to_binarytree.dir/main.cpp.o -c /home/lu.gao/Desktop/learning-algo/array-to-binarytree/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/array_to_binarytree.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/array_to_binarytree.dir/main.cpp.o -c /home/strobe/Desktop/playground-cpp/array-to-binarytree/main.cpp
 
 CMakeFiles/array_to_binarytree.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/array_to_binarytree.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu.gao/Desktop/learning-algo/array-to-binarytree/main.cpp > CMakeFiles/array_to_binarytree.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/strobe/Desktop/playground-cpp/array-to-binarytree/main.cpp > CMakeFiles/array_to_binarytree.dir/main.cpp.i
 
 CMakeFiles/array_to_binarytree.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/array_to_binarytree.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu.gao/Desktop/learning-algo/array-to-binarytree/main.cpp -o CMakeFiles/array_to_binarytree.dir/main.cpp.s
-
-CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o: CMakeFiles/array_to_binarytree.dir/flags.make
-CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o: ../TreeNode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o -c /home/lu.gao/Desktop/learning-algo/array-to-binarytree/TreeNode.cpp
-
-CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lu.gao/Desktop/learning-algo/array-to-binarytree/TreeNode.cpp > CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.i
-
-CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lu.gao/Desktop/learning-algo/array-to-binarytree/TreeNode.cpp -o CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/strobe/Desktop/playground-cpp/array-to-binarytree/main.cpp -o CMakeFiles/array_to_binarytree.dir/main.cpp.s
 
 # Object files for target array_to_binarytree
 array_to_binarytree_OBJECTS = \
-"CMakeFiles/array_to_binarytree.dir/main.cpp.o" \
-"CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o"
+"CMakeFiles/array_to_binarytree.dir/main.cpp.o"
 
 # External object files for target array_to_binarytree
 array_to_binarytree_EXTERNAL_OBJECTS =
 
 array_to_binarytree: CMakeFiles/array_to_binarytree.dir/main.cpp.o
-array_to_binarytree: CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o
 array_to_binarytree: CMakeFiles/array_to_binarytree.dir/build.make
 array_to_binarytree: CMakeFiles/array_to_binarytree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable array_to_binarytree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable array_to_binarytree"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/array_to_binarytree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +93,6 @@ CMakeFiles/array_to_binarytree.dir/clean:
 .PHONY : CMakeFiles/array_to_binarytree.dir/clean
 
 CMakeFiles/array_to_binarytree.dir/depend:
-	cd /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lu.gao/Desktop/learning-algo/array-to-binarytree /home/lu.gao/Desktop/learning-algo/array-to-binarytree /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug /home/lu.gao/Desktop/learning-algo/array-to-binarytree/cmake-build-debug/CMakeFiles/array_to_binarytree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/strobe/Desktop/playground-cpp/array-to-binarytree /home/strobe/Desktop/playground-cpp/array-to-binarytree /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug /home/strobe/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles/array_to_binarytree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/array_to_binarytree.dir/depend
 

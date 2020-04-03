@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/array_to_binarytree.dir/TreeNode.cpp.o"
   "CMakeFiles/array_to_binarytree.dir/main.cpp.o"
   "array_to_binarytree"
   "array_to_binarytree.pdb"
