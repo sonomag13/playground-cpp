@@ -102,12 +102,13 @@ private:
         else {
             rootNode->left = recursiveInsert(rootNode->left, key, value);
         }
-        // return rootNode;
+        return rootNode;
     }
 
     void nonRecursiveInsert(Node<Key, Value>* rootNode, Key key, Value value) {
         if(rootNode == NULL) {
             this->rootNode = new Node<Key, Value>(key, value);
+            count++;
         }
         else {
             while(true) {
@@ -117,20 +118,22 @@ private:
                 }
                 if(rootNode->key < key) {
                     if(rootNode->right == NULL) {
-                        rootNode->right = new Node<Key, Value> (key, value);
-                        break;
+                      rootNode->right = new Node<Key, Value> (key, value);
+                      count++;
+                      break;
                     }
                     else {
-                        rootNode = rootNode->right;
+                      rootNode = rootNode->right;
                     }
                 }
                 else {
                     if(rootNode->left == NULL) {
-                        rootNode->left = new Node<Key, Value> (key, value);
-                        break;
+                      rootNode->left = new Node<Key, Value> (key, value);
+                      count++;
+                      break;
                     }
                     else {
-                        rootNode = rootNode->left;
+                      rootNode = rootNode->left;
                     }
                 }
             }
@@ -143,18 +146,17 @@ private:
             return "n/a";
         }
         if(rootNode->key == targetKey) {
-            std::string str(1, rootNode->value);
-            std::cout << str << std::endl;
-            // str.push_back(rootNode->value);
-            return str;
+            std::string strOut;
+            strOut += rootNode->value;
+            return strOut;
         }
-
         if(rootNode->key > targetKey) {
             search(rootNode->left, targetKey);
         }
         else {
             search(rootNode->right, targetKey);
         }
+        return "n/a";
     }
 
 };
