@@ -146,8 +146,8 @@ private:
             return "n/a";
         }
         if(rootNode->key == targetKey) {
-            std::string strOut;
-            strOut += rootNode->value;
+            char curVal = rootNode->value;
+            std::string strOut(1, curVal);
             return strOut;
         }
         if(rootNode->key > targetKey) {
