@@ -6,6 +6,7 @@
 #define BINARY_SEARCH_TREE_BST_H
 
 #include <iostream>
+#include <sstream>
 #include <queue>
 #include <string>
 #include "DataStructure.h"
@@ -142,21 +143,32 @@ private:
     }
 
     std::string search(Node<Key, Value>* rootNode, Key targetKey) {
+        std::stringstream ss;
+        std::string strOut;
         if(rootNode == NULL) {
             return "n/a";
         }
         if(rootNode->key == targetKey) {
+<<<<<<< HEAD
+            ss << rootNode->value;
+            ss >> strOut;
+=======
             char curVal = rootNode->value;
             std::string strOut(1, curVal);
+>>>>>>> e3811fbdd3972cd42f4e09e6b3bde36eb57e00c9
             return strOut;
         }
         if(rootNode->key > targetKey) {
-            search(rootNode->left, targetKey);
+            strOut = search(rootNode->left, targetKey);
         }
         else {
-            search(rootNode->right, targetKey);
+            strOut = search(rootNode->right, targetKey);
         }
+<<<<<<< HEAD
+        return strOut;
+=======
         return "n/a";
+>>>>>>> e3811fbdd3972cd42f4e09e6b3bde36eb57e00c9
     }
 
 };
