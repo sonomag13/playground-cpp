@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/dyanmic_allocation2.dir/main.cpp.o  -o dyanmic_allocation2 

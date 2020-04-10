@@ -72,6 +72,47 @@ public:
         return search(rootNode, targetKey);
     }
 
+    std::vector<std::string> searchKeyPath() {
+        std::vector<std::string> keyPath;
+        // std::stringstream keyStringStream;
+        // keyStringStream << "";
+        std::string keyString;
+        _searchKeyPath(rootNode, keyString, keyPath);
+        return keyPath;
+    }
+
+    static void printPath(std::vector<std::string> keyPath) {
+        std::cout << "\n\nprint out all the paths" << std::endl;
+        for(auto n : keyPath) {
+          std::cout << "\tpath = " << n << std::endl;
+        }
+    }
+
+    std::vector<int> preOrder() {
+        std::vector<int> vectorPreOrder;
+        _preOrder(rootNode, vectorPreOrder);
+        return vectorPreOrder;
+    }
+
+    std::vector<int> midOrder() {
+        std::vector<int> vectorMidOrder;
+        _midOrder(rootNode, vectorMidOrder);
+        return vectorMidOrder;
+    }
+
+    std::vector<int> postOrder() {
+        std::vector<int> vectorPostOrder;
+        _postOrder(rootNode, vectorPostOrder);
+        return vectorPostOrder;
+    }
+
+    static void printOrder(std::vector<int> order) {
+        for(auto i : order) {
+            std::cout << i << "->";
+        }
+        std::cout << std::endl;
+    }
+
 private:
 
     int count;
@@ -149,13 +190,10 @@ private:
             return "n/a";
         }
         if(rootNode->key == targetKey) {
-<<<<<<< HEAD
             ss << rootNode->value;
             ss >> strOut;
-=======
             char curVal = rootNode->value;
             std::string strOut(1, curVal);
->>>>>>> e3811fbdd3972cd42f4e09e6b3bde36eb57e00c9
             return strOut;
         }
         if(rootNode->key > targetKey) {
@@ -164,11 +202,45 @@ private:
         else {
             strOut = search(rootNode->right, targetKey);
         }
-<<<<<<< HEAD
         return strOut;
-=======
-        return "n/a";
->>>>>>> e3811fbdd3972cd42f4e09e6b3bde36eb57e00c9
+    }
+
+    void _searchKeyPath(Node<Key, Value>* currentNode, std::string keyString, std::vector<std::string>& keyPath) {
+        if(currentNode == NULL) {
+            return;
+        }
+        if(currentNode->left == NULL && currentNode->right == NULL) {
+            keyString.push_back(currentNode->value);
+            keyPath.push_back(keyString);
+        }
+        keyString.push_back(currentNode->value);
+        keyString += "->";
+        _searchKeyPath(currentNode->left, keyString, keyPath);
+        _searchKeyPath(currentNode->right, keyString, keyPath);
+    }
+
+    void _preOrder(Node<Key, Value>* currentNode, std::vector<int>& vectorPreOrder) {
+        if(currentNode != NULL) {
+          vectorPreOrder.push_back(currentNode->key);
+          _preOrder(currentNode->left, vectorPreOrder);
+          _preOrder(currentNode->right, vectorPreOrder);
+        }
+    }
+
+    void _midOrder(Node<Key, Value>* currentNode, std::vector<int>& vectorMidOrder) {
+        if(currentNode != NULL) {
+          _midOrder(currentNode->left, vectorMidOrder);
+          vectorMidOrder.push_back(currentNode->key);
+          _midOrder(currentNode->right, vectorMidOrder);
+        }
+    }
+
+    void _postOrder(Node<Key, Value>* currentNode, std::vector<int>& vectorPostOrder) {
+        if(currentNode != NULL) {
+            _postOrder(currentNode->left, vectorPostOrder);
+            _postOrder(currentNode->right, vectorPostOrder);
+            vectorPostOrder.push_back(currentNode->key);
+        }
     }
 
 };

@@ -1,3 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\array_to_binarytree.dir/objects.a
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\ar.exe cr CMakeFiles\array_to_binarytree.dir/objects.a @CMakeFiles\array_to_binarytree.dir\objects1.rsp
-C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\array_to_binarytree.dir/objects.a -Wl,--no-whole-archive  -o array_to_binarytree.exe -Wl,--out-implib,libarray_to_binarytree.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\array_to_binarytree.dir\linklibs.rsp

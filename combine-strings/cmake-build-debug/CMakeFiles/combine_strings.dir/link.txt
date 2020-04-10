@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/combine_strings.dir/main.cpp.o  -o combine_strings 

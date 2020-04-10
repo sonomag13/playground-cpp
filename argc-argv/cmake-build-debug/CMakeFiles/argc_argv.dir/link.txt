@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/argc_argv.dir/main.cpp.o  -o argc_argv 

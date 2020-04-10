@@ -1,3 +1,0 @@
-/home/strobe/Desktop/playground-cpp/binary-search/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/strobe/Desktop/playground-cpp/binary-search/cmake-build-debug/CMakeFiles/binary_search.dir
-/home/strobe/Desktop/playground-cpp/binary-search/cmake-build-debug/CMakeFiles/edit_cache.dir

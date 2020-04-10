@@ -1,3 +1,0 @@
-/home/lu.gao/Desktop/learning-cpp/string-operation/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lu.gao/Desktop/learning-cpp/string-operation/cmake-build-debug/CMakeFiles/string_operation.dir
-/home/lu.gao/Desktop/learning-cpp/string-operation/cmake-build-debug/CMakeFiles/edit_cache.dir

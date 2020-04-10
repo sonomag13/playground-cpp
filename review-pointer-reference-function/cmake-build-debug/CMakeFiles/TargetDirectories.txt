@@ -1,3 +1,0 @@
-/home/lgao/Desktop/learning algo/review-pointer-reference-function/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lgao/Desktop/learning algo/review-pointer-reference-function/cmake-build-debug/CMakeFiles/review_pointer_reference_function.dir
-/home/lgao/Desktop/learning algo/review-pointer-reference-function/cmake-build-debug/CMakeFiles/edit_cache.dir

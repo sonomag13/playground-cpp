@@ -1,3 +1,0 @@
-/home/strobe/Desktop/static-function-in-a-class/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/strobe/Desktop/static-function-in-a-class/cmake-build-debug/CMakeFiles/static_function_in_a_class.dir
-/home/strobe/Desktop/static-function-in-a-class/cmake-build-debug/CMakeFiles/edit_cache.dir

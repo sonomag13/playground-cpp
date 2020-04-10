@@ -1,3 +1,0 @@
-/home/lgao/Desktop/learning algo/pointer-and-array/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lgao/Desktop/learning algo/pointer-and-array/cmake-build-debug/CMakeFiles/pointer_and_array.dir
-/home/lgao/Desktop/learning algo/pointer-and-array/cmake-build-debug/CMakeFiles/edit_cache.dir

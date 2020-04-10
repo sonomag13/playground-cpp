@@ -1,3 +1,0 @@
-C:/Users/lu.gao/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles/array_to_binarytree.dir
-C:/Users/lu.gao/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/lu.gao/Desktop/playground-cpp/array-to-binarytree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

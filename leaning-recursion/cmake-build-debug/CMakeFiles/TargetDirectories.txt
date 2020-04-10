@@ -1,3 +1,0 @@
-/home/lgao/Desktop/learning algo/leaning-recursion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/lgao/Desktop/learning algo/leaning-recursion/cmake-build-debug/CMakeFiles/leaning_recursion.dir
-/home/lgao/Desktop/learning algo/leaning-recursion/cmake-build-debug/CMakeFiles/edit_cache.dir
