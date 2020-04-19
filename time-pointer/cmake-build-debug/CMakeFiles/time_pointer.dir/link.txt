@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/time_pointer.dir/main.cpp.o  -o time_pointer 

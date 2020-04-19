@@ -1,0 +1,3 @@
+/home/strobe/Desktop/playground-cpp/array-and-pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/strobe/Desktop/playground-cpp/array-and-pointer/cmake-build-debug/CMakeFiles/array_and_pointer.dir
+/home/strobe/Desktop/playground-cpp/array-and-pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
