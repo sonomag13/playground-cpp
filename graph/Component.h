@@ -29,19 +29,28 @@ public:
         return cntComp;
     }
 
+    bool isConnecteddd(int vertex1, int vertex2) {
+        return compID[vertex1] == compID[vertex2];
+    }
+
 private:
     GraphType& graph;
     bool* visited;
+    int* compID;
     int cntComp;
 
     void setVisited(int numVertex) {
         visited = new bool[numVertex];
-        for (int i = 0; i < numVertex; ++i)
+        compID = new int[numVertex];
+        for (int i = 0; i < numVertex; ++i) {
             visited[i] = false;
+            compID[i] = -1;
+        }
     }
 
     void dfs(int v) {
         visited[v] = true;
+        compID[v] = cntComp;
         typename GraphType::adjIterator adj(graph, v);
         for (int i = adj.begin(); !adj.end(); i = adj.next()) {
             if (!visited[i])
