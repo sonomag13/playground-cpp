@@ -1,3 +1,0 @@
-/home/strobe/Desktop/playground-cpp/time-pointer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/strobe/Desktop/playground-cpp/time-pointer/cmake-build-debug/CMakeFiles/time_pointer.dir
-/home/strobe/Desktop/playground-cpp/time-pointer/cmake-build-debug/CMakeFiles/edit_cache.dir
