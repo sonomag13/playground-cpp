@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="binary_search_tree" targetName="binary_search_tree" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8d20fe2-338a-4b16-9add-8829f45b3430" name="Default Changelist" comment="&quot;&quot;">
+      <change afterPath="$PROJECT_DIR$/Screenshot from 2020-04-08 21-52-58.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BST.h" beforeDir="false" afterPath="$PROJECT_DIR$/BST.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1a9XFCPgYu3mhYmDttc9ZYLDxv8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.overridden" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Strawberry-System-Model/detection-sim" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration name="binary_search_tree" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="binary_search_tree" TARGET_NAME="binary_search_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="binary_search_tree" RUN_TARGET_NAME="binary_search_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8d20fe2-338a-4b16-9add-8829f45b3430" name="Default Changelist" comment="" />
+      <created>1586148679482</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586148679482</updated>
+      <workItem from="1586148684057" duration="208000" />
+      <workItem from="1586397151460" duration="9609000" />
+      <workItem from="1586460540358" duration="646000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="786" y="747" key="#xdebugger.evaluate" timestamp="1586404816520">
+      <screen x="67" y="525" width="1853" height="1053" />
+    </state>
+    <state x="786" y="747" key="#xdebugger.evaluate/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586404816520" />
+    <state x="2062" y="501" width="905" height="916" key="CommitChangelistDialog2" timestamp="1586407619986">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state x="2062" y="501" width="905" height="916" key="CommitChangelistDialog2/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586407619986" />
+    <state x="664" y="624" width="883" height="801" key="FileChooserDialogImpl" timestamp="1586460586021">
+      <screen x="67" y="525" width="1853" height="1053" />
+    </state>
+    <state x="664" y="624" width="883" height="801" key="FileChooserDialogImpl/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586460586021" />
+    <state x="771" y="794" width="424" height="513" key="FileChooserDialogImpl/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586148709662" />
+    <state width="1154" height="837" key="GridCell.Tab.0.bottom" timestamp="1586410947734">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.0.bottom/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947734" />
+    <state width="1807" height="270" key="GridCell.Tab.0.bottom/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405824155" />
+    <state width="1154" height="837" key="GridCell.Tab.0.center" timestamp="1586410947733">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.0.center/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947733" />
+    <state width="1807" height="270" key="GridCell.Tab.0.center/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405824155" />
+    <state width="1154" height="837" key="GridCell.Tab.0.left" timestamp="1586410947733">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.0.left/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947733" />
+    <state width="1807" height="270" key="GridCell.Tab.0.left/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405824155" />
+    <state width="1154" height="837" key="GridCell.Tab.0.right" timestamp="1586410947733">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.0.right/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947733" />
+    <state width="1807" height="270" key="GridCell.Tab.0.right/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405824155" />
+    <state width="1154" height="837" key="GridCell.Tab.1.bottom" timestamp="1586410947734">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.1.bottom/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947734" />
+    <state width="1807" height="414" key="GridCell.Tab.1.bottom/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405238798" />
+    <state width="1154" height="837" key="GridCell.Tab.1.center" timestamp="1586410947734">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.1.center/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947734" />
+    <state width="1807" height="414" key="GridCell.Tab.1.center/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405238798" />
+    <state width="1154" height="837" key="GridCell.Tab.1.left" timestamp="1586410947734">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.1.left/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947734" />
+    <state width="1807" height="414" key="GridCell.Tab.1.left/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405238798" />
+    <state width="1154" height="837" key="GridCell.Tab.1.right" timestamp="1586410947734">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state width="1154" height="837" key="GridCell.Tab.1.right/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586410947734" />
+    <state width="1807" height="414" key="GridCell.Tab.1.right/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586405238798" />
+    <state x="1920" y="365" width="1200" height="685" maximized="true" key="dock-window-1" timestamp="1586397252230">
+      <screen x="1920" y="0" width="1200" height="1920" />
+    </state>
+    <state x="1920" y="365" width="1200" height="685" maximized="true" key="dock-window-1/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586397252230" />
+    <state x="823" y="525" width="866" height="1053" maximized="true" key="dock-window-2" timestamp="1586460560384">
+      <screen x="67" y="525" width="1853" height="1053" />
+    </state>
+    <state x="823" y="525" width="866" height="1053" maximized="true" key="dock-window-2/67.525.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1586460560384" />
+  </component>
+</project>

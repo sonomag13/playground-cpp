@@ -1,0 +1,3 @@
+/home/strobe/playground-cpp/static-variable/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/strobe/playground-cpp/static-variable/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/strobe/playground-cpp/static-variable/cmake-build-debug/CMakeFiles/static_variable.dir

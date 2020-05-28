@@ -11,7 +11,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38dd2f35-30d6-4a16-bd91-8febcdc3048a" name="Default Changelist" comment="" />
+    <list default="true" id="38dd2f35-30d6-4a16-bd91-8febcdc3048a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../customized-comparator/Solution.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../priority-queue/HelperFunctions.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,19 +30,19 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.overridden" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/cs6200-intro-OS-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="learning_sprintf" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learning_sprintf" TARGET_NAME="learning_sprintf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learning_sprintf" RUN_TARGET_NAME="learning_sprintf">
+    <configuration name="learning_sprintf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learning_sprintf" TARGET_NAME="learning_sprintf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learning_sprintf" RUN_TARGET_NAME="learning_sprintf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -56,28 +61,38 @@
       <workItem from="1565240396857" duration="943000" />
       <workItem from="1565411827099" duration="30000" />
       <workItem from="1586661919142" duration="154000" />
+      <workItem from="1588523407845" duration="668000" />
+      <workItem from="1588629347706" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1807" height="270" key="GridCell.Tab.0.bottom" timestamp="1586662072436">
-      <screen x="67" y="525" width="1853" height="1053" />
+    <state x="620" y="1206" width="805" height="835" key="FileChooserDialogImpl" timestamp="1588629406964">
+      <screen x="175" y="1080" width="1680" height="1050" />
+    </state>
+    <state x="620" y="1206" width="805" height="835" key="FileChooserDialogImpl/67.27.1853.1053/175.1080.1680.1050@175.1080.1680.1050" timestamp="1588629406964" />
+    <state width="1154" height="555" key="GridCell.Tab.0.bottom" timestamp="1588524151683">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state width="1807" height="270" key="GridCell.Tab.0.bottom/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586662072436" />
-    <state width="1807" height="270" key="GridCell.Tab.0.center" timestamp="1586662072436">
-      <screen x="67" y="525" width="1853" height="1053" />
+    <state width="1154" height="555" key="GridCell.Tab.0.bottom/67.569.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1588524151683" />
+    <state width="1154" height="555" key="GridCell.Tab.0.center" timestamp="1588524151683">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state width="1807" height="270" key="GridCell.Tab.0.center/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586662072436" />
-    <state width="1807" height="270" key="GridCell.Tab.0.left" timestamp="1586662072436">
-      <screen x="67" y="525" width="1853" height="1053" />
+    <state width="1154" height="555" key="GridCell.Tab.0.center/67.569.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1588524151683" />
+    <state width="1154" height="555" key="GridCell.Tab.0.left" timestamp="1588524151683">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state width="1807" height="270" key="GridCell.Tab.0.left/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586662072436" />
-    <state width="1807" height="270" key="GridCell.Tab.0.right" timestamp="1586662072436">
-      <screen x="67" y="525" width="1853" height="1053" />
+    <state width="1154" height="555" key="GridCell.Tab.0.left/67.569.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1588524151683" />
+    <state width="1154" height="555" key="GridCell.Tab.0.right" timestamp="1588524151683">
+      <screen x="1920" y="0" width="1200" height="1920" />
     </state>
     <state width="1807" height="270" key="GridCell.Tab.0.right/67.525.1853.1053/1920.0.1200.1920@67.525.1853.1053" timestamp="1586662072436" />
+    <state width="1154" height="555" key="GridCell.Tab.0.right/67.569.1853.1053/1920.0.1200.1920@1920.0.1200.1920" timestamp="1588524151683" />
   </component>
 </project>
