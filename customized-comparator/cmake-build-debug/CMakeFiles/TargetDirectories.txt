@@ -1,3 +1,0 @@
-/home/strobe/playground-cpp/customized-comparator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/strobe/playground-cpp/customized-comparator/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/strobe/playground-cpp/customized-comparator/cmake-build-debug/CMakeFiles/customized_comparator.dir

@@ -1,3 +1,0 @@
-/home/strobe/playground-cpp/graph/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/strobe/playground-cpp/graph/cmake-build-debug/CMakeFiles/graph.dir
-/home/strobe/playground-cpp/graph/cmake-build-debug/CMakeFiles/edit_cache.dir

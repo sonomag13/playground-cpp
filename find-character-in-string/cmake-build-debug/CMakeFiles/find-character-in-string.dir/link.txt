@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/find-character-in-string.dir/main.cpp.o  -o find-character-in-string 

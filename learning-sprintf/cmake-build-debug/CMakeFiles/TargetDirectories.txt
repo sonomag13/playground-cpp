@@ -1,3 +1,0 @@
-/home/strobe/playground-cpp/learning-sprintf/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/strobe/playground-cpp/learning-sprintf/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/strobe/playground-cpp/learning-sprintf/cmake-build-debug/CMakeFiles/learning_sprintf.dir
