@@ -8,6 +8,7 @@ class Entity {
 public: 
     int x{0}; 
     int y{0}; 
+    // static variable
     static int z; 
 
     Entity();
@@ -18,6 +19,7 @@ public:
 
     void printVar(); 
 
+    // static function
     static void staticPrintVar(Entity*);
 
 private:

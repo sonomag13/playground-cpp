@@ -11,14 +11,13 @@ Entity::Entity(int x, int y) {
 
 void Entity::printVar() {
     char* msg = (char*) malloc(1024); 
-    sprintf(msg, "\nx = %d and y = %d; z = %d\n", x, y, z);
+    sprintf(msg, "\tx = %d and y = %d; z = %d", x, y, z);
     cout << msg << endl; 
 }
 
-/*
-static void staticPrintVar(Entity* ptrE) {      
-    cout << "\nI am here" << endl;   
+// static function to print
+void Entity::staticPrintVar(Entity* ptrE) {    
     char* msg = (char*) malloc(1024); 
-    sprintf(msg, "\nx = %d and y = %d; z = %d\n", ptrE->x, ptrE->y, ptrE->z); 
+    sprintf(msg, "\tx = %d and y = %d; z = %d", ptrE->x, ptrE->y, ptrE->z); 
+    cout << msg << endl; 
 }
- */
