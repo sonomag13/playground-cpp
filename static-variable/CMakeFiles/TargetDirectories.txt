@@ -1,0 +1,3 @@
+/home/luther/playground-cpp/static-variable/CMakeFiles/rebuild_cache.dir
+/home/luther/playground-cpp/static-variable/CMakeFiles/dummy.dir
+/home/luther/playground-cpp/static-variable/CMakeFiles/edit_cache.dir

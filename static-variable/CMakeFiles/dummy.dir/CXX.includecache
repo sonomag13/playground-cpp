@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luther/playground-cpp/static-variable/src/DummyClass.cpp
+DummyClass.h
+/home/luther/playground-cpp/static-variable/src/DummyClass.h
+
+/home/luther/playground-cpp/static-variable/src/main.cpp
+cassert
+-
+iostream
+-
+DummyClass.h
+/home/luther/playground-cpp/static-variable/src/DummyClass.h
+
+include/DummyClass.h
+iostream
+-
+string
+-
+

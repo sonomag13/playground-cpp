@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/luther/playground-cpp/learning-gdb/HelperFunctioons.h
+stdio.h
+-
+stdlib.h
+-
+
+/home/luther/playground-cpp/learning-gdb/main.c
+HelperFunctioons.h
+/home/luther/playground-cpp/learning-gdb/HelperFunctioons.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+
