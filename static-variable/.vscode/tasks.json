@@ -5,7 +5,11 @@
             "type": "shell",
             "label": "C/C++: g++ build active file",
             "command": [
-                "cmake .",
+                "mkdir build", 
+                "$CMD;",
+                "cd build", 
+                "$CMD;",
+                "cmake ..",
                 "$CMD;",
                 "make"
             ],

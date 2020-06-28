@@ -1,3 +1,0 @@
-/home/luther/playground-cpp/learning-gdb/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/luther/playground-cpp/learning-gdb/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/luther/playground-cpp/learning-gdb/cmake-build-debug/CMakeFiles/learning_gdb.dir

@@ -1,1 +1,0 @@
-/usr/bin/cc -g   CMakeFiles/learning_gdb.dir/main.c.o  -o learning_gdb 

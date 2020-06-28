@@ -1,4 +1,4 @@
-#include "DummyClass.h"
+#include "Dummy.hpp"
 
 Entity::Entity() {
 
