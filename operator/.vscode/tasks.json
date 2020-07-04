@@ -1,0 +1,24 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "operator overloading",
+			"command": [				
+				"cd build", 
+				"$CMD;",
+				"cmake ..",
+				"$CMD;",
+				"make"
+			],
+			"args": [ ],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		}
+	]
+}
