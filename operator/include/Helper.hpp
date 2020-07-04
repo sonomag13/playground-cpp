@@ -15,6 +15,8 @@ public:
     double getX() const; 
     double getY() const; 
     void setX(const double x); 
-    void setY(const double Y); 
+    void setY(const double y); 
+    Vector2 operator + (const Vector2& vecIn); 
+    bool operator == (const Vector2& vecIn); 
 
 }; 

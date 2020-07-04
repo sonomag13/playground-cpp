@@ -11,7 +11,7 @@
 				"$CMD;",
 				"make"
 			],
-			"args": [ ],
+			"args": [],
 			"options": {
 				"cwd": "${workspaceFolder}"
 			},
