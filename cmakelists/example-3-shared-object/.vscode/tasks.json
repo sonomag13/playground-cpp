@@ -1,0 +1,30 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "CMakeLists.txt with multiple files",
+			"command": [								
+				"mkdir build", 
+				"$CMD;",
+				"cd build",
+				"$CMD;",
+				"cmake ..", 
+				"$CMD;", 
+				"make"
+				"$CMD", 
+				"sudo make install"
+			], 
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
