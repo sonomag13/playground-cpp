@@ -14,7 +14,7 @@ public:
     ~Entity() {
         cout << strPtrType << ": " << "entity destroyed" << endl; 
     }; 
-    void  print() {
+    void print() {
         cout << strPtrType << ": " << "val = " << val << endl; 
     }
 
@@ -70,7 +70,7 @@ int main() {
         // shardPtr0 is not dead
         sharedPtr0->print();
         // sharedPtr1 is dead out of the inner scope
-        //sharedPtr1->print();
+        // sharedPtr1->print();
         cout << "just get out of the inner scope of shared pointer " << endl; 
     }
 

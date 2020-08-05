@@ -1,5 +1,6 @@
 #include <cstring>
 #include <iostream>
+#include <sstream>
 
 using namespace std;
 
@@ -18,6 +19,11 @@ int main(int argc, char** argv) {
         sprintf(msg, "\targv[%d] = %s", i, argv[i]);
         cout << msg << endl;
     }    
+    
+    size_t num; 
+    stringstream ss(argv[1]);
+    ss >> num; 
+    cout << "num = " << num << endl; 
 
     cout << "\n----------------let us take a a look at the addresses----------------\n" << endl; 
     cout << "using this command line to test the code:\n\t./main arg1 arg2 arg3" << endl; 

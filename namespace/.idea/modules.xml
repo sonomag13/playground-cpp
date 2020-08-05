@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/array-and-pointer.iml" filepath="$PROJECT_DIR$/.idea/array-and-pointer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/namespace.iml" filepath="$PROJECT_DIR$/.idea/namespace.iml" />
     </modules>
   </component>
 </project>
