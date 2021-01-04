@@ -58,7 +58,7 @@ int main() {
     vector<A> vect;
     /**
      * what happens in this case?
-     * - an A object is instanciated, but it is a right value
+     * - an A object is instantiated, but it is a right value
      * - when push back in the vector, the copy constructor is called
      * - after being pushed, the destructor will be called
      * - after the entire script, the destructor will be called again
