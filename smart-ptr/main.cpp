@@ -6,10 +6,8 @@ using namespace std;
 
 class Entity {
 public: 
-    Entity(int val, const string& strPtrType) {
+    Entity(int val, const string& strPtrType): val(val), strPtrType(strPtrType) {
         cout << "entity constructed" << endl; 
-        this->val = val; 
-        this->strPtrType = strPtrType; 
     }
     ~Entity() {
         cout << strPtrType << ": " << "entity destroyed" << endl; 
@@ -50,6 +48,10 @@ int main() {
          * two unique pointer cannt point to the same object
          */ 
         // unique_ptr<Entity> uniquePtrEnt2 = uniquePtrEnt; 
+
+        // However, it is allowd to build a pointer to point to the object
+        Entity* 
+
     }
     // this is also forbidden although the pointer was not destroyed
     // normalPtrEnt->print();
@@ -86,9 +88,7 @@ int main() {
         {
             shared_ptr<Entity> sharedPtr1 = std::make_shared<Entity> (val, "shared ptr 1");
             sharedPtr1->print();
-            weakPtr0 = sharedPtr1;                        
-            cout << "hold on here" << endl; 
-            
+            weakPtr0 = sharedPtr1;            
         }
         // weakPtr0 also die with sharedPtr1
         // weakPtr0->print();
