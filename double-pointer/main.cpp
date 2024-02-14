@@ -75,6 +75,24 @@ int main() {
     cout << "\t*doubleIntPtr = " << *doubleIntPtr << endl;
     cout << "\t**doubleIntPtr = " << **doubleIntPtr << endl;
 
+    {
+        auto changePointer = [] (int* singleIntPtr, int val) {
+            /**
+             * since the double pointer points to single pointer, this operation will overload the single pointer
+             **/
+             cout << "singleIntPtr = " << singleIntPtr << endl;
+            singleIntPtr = new int(val);
+        };
+        changePointer(singleIntPtr, 500);
+    }
+
+    cout << "\n\nAfter the 3rd change: " << endl;
+    cout << "\tsingleIntPtr = " << singleIntPtr << endl;
+    cout << "\t*singleIntPtr = " << *singleIntPtr << endl;
+    cout << "\tdoubleIntPtr = " << doubleIntPtr << endl;
+    cout << "\t*doubleIntPtr = " << *doubleIntPtr << endl;
+    cout << "\t**doubleIntPtr = " << **doubleIntPtr << endl;
+
     delete singleIntPtr;
 
     return EXIT_SUCCESS;
