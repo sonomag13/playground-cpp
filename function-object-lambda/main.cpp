@@ -20,8 +20,14 @@ public:
         auto _addNum = [this](int y) -> int {
             return this->class1->add(y);
         };
-        int sum = _addNum(x);
-        return sum;
+
+        std::function<int(int)> func = _addNum;
+        print(func, x);
+        return 0;
+    }
+
+    void print(std::function<int(int)> func, int val) {
+        std::cout << "result = " << func(val) << '\n';
     }
 
 private:
@@ -32,7 +38,6 @@ int main() {
 
     Class2 * c2 = new Class2(100);
     int sum = c2->addNum(100);  // this does not work
-    std::cout << "sum = " << sum << std::endl;
 
     return 0;
 }
