@@ -10,6 +10,11 @@ struct MyClass2 {
         return val;
     }
 
+    int addVal(int x) const {
+        return x + val;
+    }
+
+private:
     int val = 10;
 };
 
@@ -39,12 +44,16 @@ public:
 
         my_func_2 = std::bind(&MyClass2::getVal, *class2);
         print(my_func_2);
+
+        my_func_3 = std::bind(&MyClass2::addVal, *class2, std::placeholders::_1);
+        std::cout << "my_func_3(4) = " << my_func_3(4) << std::endl;
     }
 
 private:
-    std::unique_ptr<MyClass2> class2 = std::make_unique<MyClass2>(1000);
+    std::unique_ptr<MyClass2> class2 = std::make_unique<MyClass2>(100);
     int (MyClass::*my_func)();  // function pointer
     std::function<int()> my_func_2;  // function object
+    std::function<int(int)> my_func_3;  // function object
 
     int f1() {
         return 1;
