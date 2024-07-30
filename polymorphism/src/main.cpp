@@ -8,7 +8,8 @@
 #include "friend.hpp"
 #include "helper.hpp"
 
-void printArea(Shape&);
+void printArea(Shape &);
+void printArea(Shape *);
 
 int main(void) {
 
@@ -34,9 +35,9 @@ int main(void) {
      * 
      * - rectangle, square and circle are instantiated out of the classes 
      *   Rectangle, Square and Circle respectively, and all of these classes 
-     *   are derived from the base class Square
+     *   are derived from the base class Shape
      * 
-     * - Square is so called abstract class with the purpose to provide a 
+     * - Shape is so called abstract class with the purpose to provide a 
      *   virtual fucntion, that is later on overriden in the derived classes
      * 
      * - Polymorphism: we only need to implment the function 
@@ -50,6 +51,10 @@ int main(void) {
      *      - A big advantage is that, we do not need to write a printArea function 
      *        for each shape, and one function is all what we need
      */ 
+    printArea(&rectagle); 
+    printArea(&square); 
+    printArea(&circle); 
+
     printArea(rectagle); 
     printArea(square); 
     printArea(circle); 
@@ -58,6 +63,12 @@ int main(void) {
 
 }
 
-void printArea(Shape& shape) {
+void printArea(Shape * shape) {
+    std::cout << "Passing by pointer" << std::endl;
+    cout << "area = " << shape->getArea() << endl; 
+}
+
+void printArea(Shape & shape) {
+    std::cout << "Passing by reference" << std::endl;
     cout << "area = " << shape.getArea() << endl; 
 }
